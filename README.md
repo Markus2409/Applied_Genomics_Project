@@ -49,7 +49,7 @@ This repository is also intended to provide a **concise overview of the designed
 | **PCAngsd**                    | Performs PCA based on genotype likelihoods for low-coverage sequencing datasets. | [Meisner 2018](#ref-meisner2018) |
 | **BayPass**                    | Detects SNPs associated with environmental variables or population structure. | [Gautier 2025](#ref-baypass) |
 
-
+---
 
 ## Methodological Pipeline
 
@@ -137,6 +137,8 @@ This repository is also intended to provide a **concise overview of the designed
 - <a id="ref-wright1978"></a>Wright, S. (1978). *Evolution and the Genetics of Populations, Vol. 4: Variability within and among natural populations*. University of Chicago Press.  
 - <a id="ref-wang2016"></a>Wang, G., Li, X., & Wang, Z. (2016). *APD3: The antimicrobial peptide database as a tool for research and education*. **Nucleic Acids Research**, 44(D1), D1087–D1093. https://doi.org/10.1093/nar/gkv1278  
 - <a id="ref-li2019"></a>Li, Y., Ren, Y., Zhang, D., Jiang, H., Wang, Z., Li, X., & Rao, D. (2019). *Chromosome-level assembly of the mustache toad genome using third-generation DNA sequencing and Hi-C analysis*. **GigaScience**, 8(9). https://doi.org/10.1093/gigascience/giz114  
+
+---
 
 ## Contacts
 
