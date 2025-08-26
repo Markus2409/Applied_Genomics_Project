@@ -13,11 +13,11 @@
 ## Table of Contents
 
 - [Introduction & State of the art](#introduction--state-of-the-art)
-- [Software & Toolkits](#software--toolkits))
-- [Methodological Pipeline](#methodological-pipeline))
-- [Budget](#budget--estimated-costs))
+- [Software & Toolkits](#software--toolkits)
+- [Methodological Pipeline](#methodological-pipeline)
+- [Budget](#budget--estimated-costs)
 - [References](#references)
-- [Contact](#contact)
+- [Contacts](#contacts)
 ---
 ## Introduction & State of the art
 This repository documents the **Applied Genomics Simulation Project** developed during the *Applied Genomics* course of the Master’s Degree in **Bioinformatics** (University of Bologna, 2025).  
@@ -116,7 +116,6 @@ This repository is also intended to provide a **concise overview of the designed
 | **TOTAL**                              | **93,610**             | Within the €100,000 budget |
 
 ---
-## References
 ## References
 
 - <a id="ref-donol2025"></a>Donol, C. M., Zainudin, R., & Deka, E. Q. (2025). *Morphological variation of Pelobatrachus nasutus...* **JSSM**, 20(2), 390–406. https://doi.org/10.46754/jssm.2025.02.013
