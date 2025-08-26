@@ -56,13 +56,13 @@ This repository is also intended to provide a **concise overview of the designed
 - Skin biopsy samples from 10 individuals (5 from protected forest, 5 from fragmented habitat) for resequencing (15× each).  
 
 > All activities were conducted in full compliance with the **Nagoya Protocol**, with prior informed consent (PIC), mutually agreed terms (MAT), and collection permits obtained from the Malaysian Government, Sarawak Forestry Department, and private landowners (Wilmar Oil Palm Plantation).
----
+
 
 **DNA & RNA Extraction**  
 - Genomic DNA: Qiagen Genomic-tip, QC with Qubit fluorometer and NanoDrop (A260/280 ≈ 1.8–2.0, A260/230 > 2.0), PFGE (>50 kb).  
 - Total RNA (skin): Qiagen RNeasy, stored in RNAlater, RIN ≥ 7.  
 
----
+
 
 **Genome Sequencing**  
 - PacBio HiFi (30–40× coverage, 15–20 kb reads): long, high-accuracy reads.  
@@ -70,13 +70,11 @@ This repository is also intended to provide a **concise overview of the designed
 - RNA-seq (skin of the reference individual, 2–3 replicates, NovaSeq PE150, ~50M reads each).  
 - Illumina sequencing for downstream population analysis (10 individuals, 15× each, NovaSeq PE150).  
 
----
 
 **Assembly & QC**  
 - *hifiasm* for contig-level assembly ([Cheng 2021](#ref-cheng2021)).  
 - Hi-C scaffolding with *3D-DNA* ([Dudchenko 2017](#ref-dudchenko2017)) + *Juicebox* ([Robinson 2018](#ref-robinson2018)) with manual curation.  
 - QC metrics: N50 > 20 Mb, BUSCO ([Tegenfeldt 2025](#ref-tegenfeldt2025)) , QV ≥ 30 ([Rhie 2020](#ref-rhie2020)), LAI ([Ou 2018](#ref-ou2018))
----
 
 **Functional Annotation**  
 - Repeat discovery: *RepeatModeler2* ([Flynn et al., 2020](#ref-flynn2020)) + masking with *RepeatMasker* ([Smit et al., 2015](#ref-smit2015)).  
@@ -84,7 +82,6 @@ This repository is also intended to provide a **concise overview of the designed
 - Refinement: *MAKER* ([Cantarel et al., 2008](#ref-cantarel2008)) integrating *BRAKER2* results with homology from the closely related *Leptobrachium ailaonicum* genome ([Li et al., 2019](#ref-li2019)).  
 - Major target gene families: antimicrobial peptides (AMPs, validated through APD3, [Wang et al., 2016](#ref-wang2016)), keratins, mucins, extracellular matrix proteins.  
 
----
 
 **Population Genomics**  
 - Mapping: *BWA-MEM2* ([Md et al., 2019](#ref-md2019)) against the reference genome.  
