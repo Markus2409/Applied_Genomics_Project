@@ -73,27 +73,26 @@ This repository is also intended to provide a **concise overview of the designed
 ---
 
 **Assembly & QC**  
-- *hifiasm* for contig-level assembly (Cheng et al., 2021).  
-- Hi-C scaffolding with *3D-DNA* (Dudchenko et al., 2017) + *Juicebox* (Robinson et al., 2018) with manual curation.  
-- QC metrics: N50 > 20 Mb, BUSCO (Tegenfeldt et al., 2025), QV ≥ 30 (Rhie et al., 2020), LAI (Ou et al., 2018).  
-
+- *hifiasm* for contig-level assembly ([Cheng 2021](#ref-cheng2021)).  
+- Hi-C scaffolding with *3D-DNA* ([Dudchenko 2017](#ref-dudchenko2017)) + *Juicebox* ([Robinson 2018](#ref-robinson2018)) with manual curation.  
+- QC metrics: N50 > 20 Mb, BUSCO ([Tegenfeldt 2025](#ref-tegenfeldt2025)) , QV ≥ 30 ([Rhie 2020](#ref-rhie2020)), LAI ([Ou 2018](#ref-ou2018))
 ---
 
 **Functional Annotation**  
-- Repeat discovery: *RepeatModeler2* (Flynn et al., 2020) + masking with *RepeatMasker* (Smit et al., 2015).  
-- Gene models: *BRAKER2* (Gabriel et al., 2024; Stanke et al., 2004) combines RNA-seq evidence (*STAR*, Dobin et al., 2013) with ab initio models to improve exon–intron boundary prediction (*AUGUSTUS*, Stanke et al.,2004).  
-- Refinement: *MAKER* (Cantarel et al., 2008) integrating *BRAKER2* results with homology from the closely related *Leptobrachium ailaonicum* genome (Li et al., 2019).  
-- Major target gene families: antimicrobial peptides (AMPs, validated through APD3, Wang et al., 2016), keratins, mucins, extracellular matrix proteins.  
+- Repeat discovery: *RepeatModeler2* ([Flynn et al., 2020](#ref-flynn2020)) + masking with *RepeatMasker* ([Smit et al., 2015](#ref-smit2015)).  
+- Gene models: *BRAKER2* ([Gabriel et al., 2024](#ref-gabriel2024); [Stanke et al., 2004](#ref-stanke2004)) combines RNA-seq evidence (*STAR*, [Dobin et al., 2013](#ref-dobin2013)) with ab initio models to improve exon–intron boundary prediction (*AUGUSTUS*, [Stanke et al., 2004](#ref-stanke2004)).  
+- Refinement: *MAKER* ([Cantarel et al., 2008](#ref-cantarel2008)) integrating *BRAKER2* results with homology from the closely related *Leptobrachium ailaonicum* genome ([Li et al., 2019](#ref-li2019)).  
+- Major target gene families: antimicrobial peptides (AMPs, validated through APD3, [Wang et al., 2016](#ref-wang2016)), keratins, mucins, extracellular matrix proteins.  
 
 ---
 
 **Population Genomics**  
-- Mapping: *BWA-MEM2* (Md et al., 2019) against the reference genome.  
-- Variant calling: *GATK* (der Auwera et al., 2002) in gVCF mode, joint calling.  
-- Genotype likelihoods: *ANGSD* (Korneliussen et al., 2014) for allele frequencies and summary statistics.  
-- Population structure: *PCAngsd* (Meisner & Albrechtsen, 2018) for PCA.  
-- Differentiation: $F_{ST}$ (Wright, 1978).  
-- Environmental associations: *BayPass* (Gauthier, 2025) to identify SNPs correlated with habitat (protected vs fragmented).  
+- Mapping: *BWA-MEM2* ([Md et al., 2019](#ref-md2019)) against the reference genome.  
+- Variant calling: *GATK* ([Van der Auwera et al., 2002](#ref-vanderauwera2002)) in gVCF mode, joint calling.  
+- Genotype likelihoods: *ANGSD* ([Korneliussen et al., 2014](#ref-korneliussen2014)) for allele frequencies and summary statistics.  
+- Population structure: *PCAngsd* ([Meisner & Albrechtsen, 2018](#ref-meisner2018)) for PCA.  
+- Differentiation: $F_{ST}$ ([Wright, 1978](#ref-wright1978)).  
+- Environmental associations: *BayPass* ([Gautier, 2025](#ref-baypass)) to identify SNPs correlated with habitat (protected vs fragmented).   
 
 ---
 
@@ -118,20 +117,26 @@ This repository is also intended to provide a **concise overview of the designed
 ---
 ## References
 
-- <a id="ref-donol2025"></a>Donol, C. M., Zainudin, R., & Deka, E. Q. (2025). *Morphological variation of Pelobatrachus nasutus...* **JSSM**, 20(2), 390–406. https://doi.org/10.46754/jssm.2025.02.013
-- <a id="ref-kumar2017"></a>Kumar, S., Stecher, G., Suleski, M., & Hedges, S. B. (2017). TimeTree. **Mol Biol Evol**, 34(7). https://doi.org/10.1093/molbev/msx116
-- <a id="ref-li2019"></a>Li, Y., Ren, Y., Zhang, D., *et al.* (2019). Mustache toad genome (Hi-C). **GigaScience**, 8(9). https://doi.org/10.1093/gigascience/giz114
-- <a id="ref-kosch2025"></a>Kosch, T. A., *et al.* (2025). Comparative analysis of amphibian genomes. **Mol Ecol Resour**, 25(1). https://doi.org/10.1111/1755-0998.14025
-- <a id="ref-wang2016"></a>Wang, G., Li, X., & Wang, Z. (2016). APD3 database. **Nucleic Acids Res**, 44(D1). https://doi.org/10.1093/nar/gkv1278
-- <a id="ref-wright1978"></a>Wright, S. (1978). *Evolution and the Genetics of Populations*, Vol. 4. University of Chicago Press.
-- <a id="ref-cheng2021"></a>Cheng, H., Concepcion, G. T., Feng, X., Zhang, H., & Li, H. (2021). hifiasm. **Nat Methods**, 18(2). https://doi.org/10.1038/s41592-020-01056-5
-- <a id="ref-dudchenko2017"></a>Dudchenko, O., *et al.* (2017). 3D-DNA / Hi-C scaffolds. **Science**, 356(6333). https://doi.org/10.1126/science.aal3327
-- <a id="ref-robinson2018"></a>Robinson, J. T., *et al.* (2018). Juicebox.js. **Cell Systems**, 6(2). https://doi.org/10.1016/j.cels.2018.01.001
-- <a id="ref-tegenfeldt2025"></a>Tegenfeldt, F., *et al.* (2025). BUSCO/OrthoDB update. **Nucleic Acids Res**, 53. https://doi.org/10.1093/nar/gkae987
-- <a id="ref-rhie2020"></a>Rhie, A., Walenz, B. P., Koren, S., & Phillippy, A. M. (2020). Merqury. **Genome Biol**, 21. https://doi.org/10.1186/s13059-020-02134-9
-- <a id="ref-ou2018"></a>Ou, S., Chen, J., & Jiang, N. (2018). LAI. **Nucleic Acids Res**, 46(21). https://doi.org/10.1093/nar/gky730
-- <a id="ref-flynn2020"></a>Flynn, J. M., *et al.* (2020). RepeatModeler2. **PNAS**, 117(17). https://doi.org/10.1073/pnas.1921046117
-- <a id="ref-smit2015"></a>Smit, A. F. A., Hubley, R., & Green, P. (2015). RepeatMasker Open-4.0. http://www
+- <a id="ref-cheng2021"></a>Cheng, H., Concepcion, G. T., Feng, X., Zhang, H., & Li, H. (2021). *Haplotype-resolved de novo assembly using phased assembly graphs with hifiasm*. **Nature Methods**, 18(2). https://doi.org/10.1038/s41592-020-01056-5  
+- <a id="ref-dudchenko2017"></a>Dudchenko, O., Batra, S. S., Omer, A. D., Nyquist, S. K., Hoeger, M., Durand, N. C., Shamim, M. S., Machol, I., Lander, E. S., Aiden, A. P., & Lieberman Aiden, E. (2017). *De novo assembly of the Aedes aegypti genome using Hi-C yields chromosome-length scaffolds*. **Science**, 356(6333). https://doi.org/10.1126/science.aal3327  
+- <a id="ref-robinson2018"></a>Robinson, J. T., Turner, D., Durand, N. C., Thorvaldsdóttir, H., Mesirov, J. P., & Lieberman Aiden, E. (2018). *Juicebox.js provides a cloud-based visualization system for Hi-C data*. **Cell Systems**, 6(2). https://doi.org/10.1016/j.cels.2018.01.001  
+- <a id="ref-flynn2020"></a>Flynn, J. M., Hubley, R., Goubert, C., Rosen, J., Clark, A. G., Feschotte, C., & Smit, A. F. (2020). *RepeatModeler2 for automated genomic discovery of transposable element families*. **PNAS**, 117(17). https://doi.org/10.1073/pnas.1921046117  
+- <a id="ref-smit2015"></a>Smit, A. F. A., Hubley, R., & Green, P. (2015). *RepeatMasker Open-4.0*. http://www.repeatmasker.org  
+- <a id="ref-stanke2004"></a>Stanke, M., Steinkamp, R., Waack, S., & Morgenstern, B. (2004). *AUGUSTUS: A web server for gene finding in eukaryotes*. **Nucleic Acids Research**, 32. https://doi.org/10.1093/nar/gkh379  
+- <a id="ref-gabriel2024"></a>Gabriel, L., Brůna, T., Hoff, K. J., Ebel, M., Lomsadze, A., Borodovsky, M., & Stanke, M. (2024). *BRAKER3: Fully automated genome annotation using RNA-seq and protein evidence with GeneMark-ETP, AUGUSTUS, and TSEBRA*. **Genome Research**, 34(5), 769–777. https://doi.org/10.1101/gr.278090.123  
+- <a id="ref-dobin2013"></a>Dobin, A., Davis, C. A., Schlesinger, F., Drenkow, J., Zaleski, C., Jha, S., Batut, P., Chaisson, M., & Gingeras, T. R. (2013). *STAR: Ultrafast universal RNA-seq aligner*. **Bioinformatics**, 29(1). https://doi.org/10.1093/bioinformatics/bts635  
+- <a id="ref-cantarel2008"></a>Cantarel, B. L., Korf, I., Robb, S. M. C., Parra, G., Ross, E., Moore, B., Holt, C., Sánchez Alvarado, A., & Yandell, M. (2008). *MAKER: An easy-to-use annotation pipeline designed for emerging model organism genomes*. **Genome Research**, 18(1). https://doi.org/10.1101/gr.6743907  
+- <a id="ref-md2019"></a>Md, V., Misra, S., Li, H., & Aluru, S. (2019). *Efficient architecture-aware acceleration of BWA-MEM for multicore systems*. In **IPDPS 2019**. https://doi.org/10.1109/IPDPS.2019.00041  
+- <a id="ref-vanderauwera2002"></a>Van der Auwera, G. A., Carneiro, M. O., Hartl, C., Poplin, R., Del Angel, G., Levy-Moonshine, A., Jordan, T., Shakir, K., Roazen, D., Thibault, J., Banks, E., Garimella, K. V., Altshuler, D., Gabriel, S., & DePristo, M. A. (2002). *GATK Best Practices*. **Current Protocols in Bioinformatics**, 11.  
+- <a id="ref-korneliussen2014"></a>Korneliussen, T. S., Albrechtsen, A., & Nielsen, R. (2014). *ANGSD: Analysis of Next Generation Sequencing Data*. **BMC Bioinformatics**, 15. https://doi.org/10.1186/s12859-014-0356-4  
+- <a id="ref-meisner2018"></a>Meisner, J., & Albrechtsen, A. (2018). *Inferring population structure and admixture proportions in low-depth NGS data*. **Genetics**, 210(2). https://doi.org/10.1534/genetics.118.301336  
+- <a id="ref-baypass"></a>Gautier, M. (2025). *BayPass software for population genomics*. http://www1.montpellier.inra.fr/CBGP/software/baypass/ (Accessed: 25 Aug 2025)  
+- <a id="ref-tegenfeldt2025"></a>Tegenfeldt, F., Kuznetsov, D., Manni, M., Berkeley, M., Zdobnov, E. M., & Kriventseva, E. V. (2025). *OrthoDB and BUSCO update: annotation of orthologs with wider sampling of genomes*. **Nucleic Acids Research**, 53(D1), D516–D522. https://doi.org/10.1093/nar/gkae987  
+- <a id="ref-rhie2020"></a>Rhie, A., Walenz, B. P., Koren, S., & Phillippy, A. M. (2020). *Merqury: Reference-free quality, completeness, and phasing assessment for genome assemblies*. **Genome Biology**, 21, 245. https://doi.org/10.1186/s13059-020-02134-9  
+- <a id="ref-ou2018"></a>Ou, S., Chen, J., & Jiang, N. (2018). *Assessing genome assembly quality using the LTR Assembly Index (LAI)*. **Nucleic Acids Research**, 46(21), e126. https://doi.org/10.1093/nar/gky730  
+- <a id="ref-wright1978"></a>Wright, S. (1978). *Evolution and the Genetics of Populations, Vol. 4: Variability within and among natural populations*. University of Chicago Press.  
+- <a id="ref-wang2016"></a>Wang, G., Li, X., & Wang, Z. (2016). *APD3: The antimicrobial peptide database as a tool for research and education*. **Nucleic Acids Research**, 44(D1), D1087–D1093. https://doi.org/10.1093/nar/gkv1278  
+- <a id="ref-li2019"></a>Li, Y., Ren, Y., Zhang, D., Jiang, H., Wang, Z., Li, X., & Rao, D. (2019). *Chromosome-level assembly of the mustache toad genome using third-generation DNA sequencing and Hi-C analysis*. **GigaScience**, 8(9). https://doi.org/10.1093/gigascience/giz114  
 
 ## Contacts
 
