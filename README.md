@@ -29,6 +29,8 @@ The main goal was to design a **working pipeline** for the *de novo* assembly of
 In addition to genome assembly, the project focused on the **annotation of genes relevant to biomedical applications** (e.g., antimicrobial peptides, skin-related genes) and the **investigation of phenotypic plasticity** (cutaneous tubercles, mucous glands, pigmentation differences) across contrasting habitats.  
 
 This repository is also intended to provide a **concise overview of the designed pipeline, bioinformatics softwares utilized and budget estimates**, while serving as a container for **meta-information** such as figures used in the project, the presentation slides, and the final report document.
+--- 
+
 ##  Software & Toolkits
 
 | **Tool / Software**            | **Purpose**                                                                 | **Reference** |
