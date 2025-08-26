@@ -6,14 +6,14 @@
 
 ---
 
-![Genome Assembly](https://img.shields.io/badge/Assembly-PacBio_HiFi-blue?style=for-the-badge)
-![HiC](https://img.shields.io/badge/Hi--C-NovaSeq_PE150-9cf?style=for-the-badge)
-![RNA-seq](https://img.shields.io/badge/RNA--Seq-Skin_(NovaSeq_PE150)-orange?style=for-the-badge)
-![Annotation](https://img.shields.io/badge/Annotation-BRAKER2+MAKER-green?style=for-the-badge)
-![AMPs](https://img.shields.io/badge/AMPs-APD3-red?style=for-the-badge)
-![PopGen](https://img.shields.io/badge/Population-ANGSD+PCAngsd-yellow?style=for-the-badge)
-![Fst](https://img.shields.io/badge/FST-BayPass-lightgrey?style=for-the-badge)
-![Budget](https://img.shields.io/badge/Budget-100k€-brightgreen?style=for-the-badge)
+![Genome Assembly](https://img.shields.io/badge/Assembly-PacBio_HiFi-blue)
+![HiC](https://img.shields.io/badge/Hi--C-NovaSeq_PE150-9cf)
+![RNA-seq](https://img.shields.io/badge/RNA--Seq-Skin_(NovaSeq_PE150)-orange)
+![Annotation](https://img.shields.io/badge/Annotation-BRAKER2+MAKER-green)
+![AMPs](https://img.shields.io/badge/AMPs-APD3-red)
+![PopGen](https://img.shields.io/badge/Population-ANGSD+PCAngsd-yellow)
+![Fst](https://img.shields.io/badge/FST-BayPass-lightgrey)
+![Budget](https://img.shields.io/badge/Budget-100k€-brightgreen)
 
 ---
 
