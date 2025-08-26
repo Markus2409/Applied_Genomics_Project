@@ -34,17 +34,17 @@ This repository is also intended to provide a **concise overview of the designed
 | **Tool / Software**            | **Purpose**                                                                 | **Reference** |
 |--------------------------------|-----------------------------------------------------------------------------|---------------|
 | **hifiasm**                    | Fast haplotype-resolved *de novo* assembler optimized for PacBio HiFi reads, capable of producing phased assemblies. | [Cheng 2021](#ref-cheng2021) |
-| **3D-DNA**                     | Automated scaffolding tool using Hi-C data to assemble contigs into chromosome-length scaffolds. | Dudchenko et al., 2017 |
-| **Juicebox**                   | Interactive visualization and manual curation tool for genome assemblies using Hi-C contact maps. | Robinson et al., 2018 |
-| **RepeatModeler2**             | De novo detection of transposable elements and repeats in genomic sequences. | Flynn et al., 2020 |
-| **RepeatMasker**               | Uses a repeat library (e.g. from RepeatModeler2) to mask repetitive elements across the genome. | Smit et al., 2015 |
-| **BRAKER2 + AUGUSTUS + STAR**  | Automated annotation combining RNA-seq evidence with *ab initio* gene prediction to improve accuracy of exon–intron boundaries. | Gabriel et al., 2024; Stanke et al., 2004; Dobin et al., 2013 |
-| **MAKER**                      | Annotation pipeline integrating *ab initio* predictions and homology evidence into final gene models. | Cantarel et al., 2008 |
-| **BWA-MEM2**                   | High-performance sequence aligner for mapping Illumina reads to the reference genome. | Md et al., 2019 |
-| **GATK**                       | Toolkit for variant discovery and genotyping, using the gVCF workflow for joint calling. | van der Auwera et al., 2002 |
-| **ANGSD**                      | Population genomics tool for calculating allele frequencies and summary statistics from NGS data. | Korneliussen et al., 2014 |
-| **PCAngsd**                    | Performs PCA based on genotype likelihoods for low-coverage sequencing datasets. | Meisner & Albrechtsen, 2018 |
-| **BayPass**                    | Detects SNPs associated with environmental variables or population structure. | Gautier, 2025 |
+| **3D-DNA**                     | Automated scaffolding tool using Hi-C data to assemble contigs into chromosome-length scaffolds. | [Dudchenko 2017](#ref-dudchenko2017) |
+| **Juicebox**                   | Interactive visualization and manual curation tool for genome assemblies using Hi-C contact maps. | [Robinson 2018](#ref-robinson2018) |
+| **RepeatModeler2**             | De novo detection of transposable elements and repeats in genomic sequences. | [Flynn 2020](#ref-flynn2020) |
+| **RepeatMasker**               | Uses a repeat library (e.g. from RepeatModeler2) to mask repetitive elements across the genome. | [Smit 2015](#ref-smit2015) |
+| **BRAKER2** *(uses STAR + AUGUSTUS)* | Automated gene annotation pipeline combining RNA-seq alignments (**STAR**) with ab initio predictions (**AUGUSTUS**) to refine exon–intron boundaries. | [Gabriel 2024](#ref-gabriel2024); [Stanke 2004](#ref-stanke2004); [Dobin 2013](#ref-dobin2013) |
+| **MAKER**                      | Annotation pipeline integrating *ab initio* predictions and homology evidence into final gene models. | [Cantarel 2008](#ref-cantarel2008) |
+| **BWA-MEM2**                   | High-performance sequence aligner for mapping Illumina reads to the reference genome. | [Md 2019](#ref-md2019) |
+| **GATK**                       | Toolkit for variant discovery and genotyping, using the gVCF workflow for joint calling. | [der Auwera 2002](#ref-vanderauwera2002) |
+| **ANGSD**                      | Population genomics tool for calculating allele frequencies and summary statistics from NGS data. | [Korneliussen 2014](#ref-korneliussen2014) |
+| **PCAngsd**                    | Performs PCA based on genotype likelihoods for low-coverage sequencing datasets. | [Meisner 2018](#ref-meisner2018) |
+| **BayPass**                    | Detects SNPs associated with environmental variables or population structure. | [Gautier 2025](#ref-baypass) |
 
 
 
@@ -134,3 +134,10 @@ This repository is also intended to provide a **concise overview of the designed
 - <a id="ref-flynn2020"></a>Flynn, J. M., *et al.* (2020). RepeatModeler2. **PNAS**, 117(17). https://doi.org/10.1073/pnas.1921046117
 - <a id="ref-smit2015"></a>Smit, A. F. A., Hubley, R., & Green, P. (2015). RepeatMasker Open-4.0. http://www
 
+## Contacts
+
+For any questions, suggestions, or contributions, feel free to open an issue or contact the maintainer:
+
+**Marco Cuscunà**  
+- <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/Seal_of_the_University_of_Bologna.svg/1200px-Seal_of_the_University_of_Bologna.svg.png" width="16"/> [marco.cuscuna@studio.unibo.it](mailto:marco.cuscuna@studio.unibo.it)  
+- [![ORCID](https://orcid.org/sites/default/files/images/orcid_16x16.png)](https://orcid.org/0009-0008-4017-8328) `0009-0008-4017-8328`
