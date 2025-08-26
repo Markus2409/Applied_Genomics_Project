@@ -35,7 +35,7 @@ The repository as intended is organized into the following folders:
 - [**Report and Powerpoint/**](./Report%20and%20Powerpoint)  
   Contains the final written **report document** (PDF) and the **presentation slides** (PowerPoint) prepared for the Applied Genomics course.  
 
-- [**Images and Tables/**](./Images%20and%20Tables)  
+- [**Images and Tables/**](./Images%20and%20tables)  
   Contains all the **figures, diagrams, and tables** included in the report and presentation. These are provided separately to facilitate reuse in other documents or presentations.  
 --- 
 
