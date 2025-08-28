@@ -103,7 +103,7 @@ The repository as intended is organized into the following folders:
 - Environmental associations: *BayPass* ([Gautier, 2025](#ref-baypass)) to identify SNPs correlated with habitat (protected vs fragmented).   
 
 **Data submission**
-- All raw sequencing reads, assembled and annotated genome and VCF files are submitted to the European Nucleotide Archive (ENA) to ensures compliance with the FAIR principles and enable reproducibility by the scientific community
+- All raw sequencing reads, assembled and annotated genome and VCF files are submitted to the [European Nucleotide Archive (ENA)](https://www.ebi.ac.uk/ena/browser/home) to ensures compliance with the FAIR principles and enable reproducibility by the scientific community
 
 ---
 
