@@ -59,9 +59,7 @@ The repository as intended is organized into the following folders:
 ---
 
 ## Methodological Pipeline
-<p align="center">
-  <img src="figures/diagram pipeline.png" alt="Workflow of the experimental and analytical pipeline" width="700">
-</p>
+  <img src="Images%20and%20tables/diagram%20pipeline.png" alt="Workflow of the experimental and analytical pipeline" width="3000">
 
 **Sample Collection & Ethics**  
 - 1 high-quality individual sample from blood for reference genome assembly (HMW DNA).  
@@ -103,6 +101,9 @@ The repository as intended is organized into the following folders:
 - Population structure: *PCAngsd* ([Meisner & Albrechtsen, 2018](#ref-meisner2018)) for PCA.  
 - Differentiation: $F_{ST}$ ([Wright, 1978](#ref-wright1978)).  
 - Environmental associations: *BayPass* ([Gautier, 2025](#ref-baypass)) to identify SNPs correlated with habitat (protected vs fragmented).   
+
+**Data submission**
+All raw sequencing reads, assembled and annotated genome and VCF files are submitted to the European Nucleotide Archive (ENA) to ensures compliance with the FAIR principles and enable reproducibility by the scientific community
 
 ---
 
