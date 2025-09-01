@@ -59,7 +59,7 @@ The repository as intended is organized into the following folders:
 ---
 
 ## Methodological Pipeline
-  <img src="Images%20and%20tables/diagram%20pipelin.png" alt="Workflow of the experimental and analytical pipeline" width="3000">
+  <img src="Images%20and%20tables/diagram%20pipeline.png" alt="Workflow of the experimental and analytical pipeline" width="3000">
 
 **Sample Collection & Ethics**  
 - 1 high-quality individual sample from blood for reference genome assembly (HMW DNA).  
